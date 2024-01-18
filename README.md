@@ -1,9 +1,6 @@
 # Projekt i Fullstacks-utveckling med ramverk (DT193G)
 I detta repository finns källkodsfiler för en klientapplikation som är tänkt att användas för ett fiktivt företag som säljer garn för lagerföring och information av produkterna till en webbshop. Webbplatsen är skapad med hjälp av JavaScript-ramverket Vue och konsumerar data från en webbtjänst som också skapades under samma projekt med hjälp av PHP-ramverket Laravel. Det finns funktionalitet för att både skapa, läsa, uppdatera och radera produkter, kategorier och märken. För kategorier och märken finns det även möjlighet att specifikt hämta de produkter som tillhör en kategori eller ett märke. På webbplatsen har jag också använt mig av CSS-ramverket Bootstrap.
 
-## Länk till webbplats
-https://garnbollen.netlify.app/
-
 ## Klientapplikation
 Roten App innehåller komponenten RouterView och utgör grunden för webbplatsen. Härifrån kan man nås vyerna LoginView och RegisterView. Vid inloggning slussas man vidare till vyn Dashboard som i sin tur innehåller komponenten Header och en nestad RouterView. Genom den nestade routerview renderas alla vyer som kan ses i inloggat läge.
 
